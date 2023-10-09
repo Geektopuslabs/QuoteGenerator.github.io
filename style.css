@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+body {
+  background: linear-gradient(to bottom right, #3f5efb, #fc466b);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Noto Sans';
+}
+
+
+
+/* container */
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.quote-box {
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+button {
+  font-size: 20px;
+  padding: 15px 25px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .quote-text {
+    font-size: 1.5rem;
+  }
+  
+  .quote-author {
+    font-size: 1rem;
+  }
+  
+  button {
+    font-size: 18px;
+    padding: 12px 15px;
+  }
+
+}
+
+
+
